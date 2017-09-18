@@ -491,8 +491,10 @@ class ActivityComment(ActivityBase):
 class ActivityCommentsClosed(ActivityBase):
     TYPE = "activity-comments-closed"
 
+
 class ActivityCveIdAdded(ActivityBase):
-    TYPE="activity-cve-id-added"
+    TYPE = "activity-cve-id-added"
+
 
 class ActivityExternalUserInvitationCancelled(ActivityBase):
     TYPE = "activity-external-user-invitation-cancelled"
@@ -540,8 +542,10 @@ class ActivityManuallyDisclosed(ActivityBase):
 class ActivityMediationRequested(ActivityBase):
     TYPE = "activity-mediation-requested"
 
+
 class ActivityNobodyAssignedToBug(ActivityBase):
     TYPE = "activity-nobody-assigned-to-bug"
+
 
 class ActivityNotEligibleForBounty(ActivityBase):
     TYPE = "activity-not-eligible-for-bounty"
